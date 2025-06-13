@@ -1,0 +1,11 @@
+
+.swiper-cont{
+    width:90%;
+    height:500px;
+}
+w-full h-full object-cover rounded-xl
+.swiper-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover rounded-xl;
+}

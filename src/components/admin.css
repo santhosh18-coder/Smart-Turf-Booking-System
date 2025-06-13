@@ -1,0 +1,119 @@
+.admin-wrapper {
+    background-color: #F4F4F9;
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.admin-header {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.admin-header>h1 {
+    color: white;
+    font-style: italic;
+}
+
+
+.admin-main {
+    margin-top: 10px;
+    width: 95%;
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.booking-card {
+    color: black;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.booking-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.booking-mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.booking-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.booking-date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.booking-timing {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.not-linked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    text-align: center;
+    background-color: white;
+}
+
+.not-linked>p{
+    font-size: 2rem;
+}
+
+.not-linked>button {
+    background-color: white;
+    color: red;
+    height: 50px;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 2px solid red;
+}
+
+.no-bookings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+}

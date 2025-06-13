@@ -1,0 +1,112 @@
+.booking-wrapper{
+    width: 100wv;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+
+.date-picker{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:20vh;
+    width:100vw;
+    border: 10px solid white;
+    position: relative;
+}
+
+.slot-grid{
+    width: 100vw;
+    height:80vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.slot-button{
+    border: 1px solid green;
+    width: 100%;
+    height:100%;
+    color:green;
+    border-radius: 10px;
+}
+
+.slot-button.isSelected{
+    background-color: green;
+    color:white;
+}
+
+.slot-button.inRange{
+    background-color: green;
+    color:white;
+}
+
+.slot-button.isLocked{
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.slot-action{
+    min-width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border: 10px solid white;
+
+}
+
+.slot-action>p{
+    font-size: 1.1rem;
+    color: green;
+    width: 100%;
+}
+
+.slot-action>button{
+    background-color: red;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.turf-det{
+    background-color: white;
+    width: 100%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.turf-inf{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.turf-inf>label{
+    width:20%;
+}
+
+.turf-inf>input{
+    width:60%
+}
+
+.turf-but>button{
+    background-color: green;
+    height:40px;
+    width:100%;
+    border-radius: 10px;
+}

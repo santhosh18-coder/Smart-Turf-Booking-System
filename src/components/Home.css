@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/cr7.jpg');
+    background-size: cover;
+    background-position: top;
+    gap: 3rem;
+}
+
+.box-1>h1 {
+    margin: 0px;
+}
+
+.box-1 {
+    width: 200px;
+}
+
+.box-1>h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+}
+
+.box-2 {
+    font-family: "Bungee Tint",sans-serif;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.booking-button {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Oswald",sans-serif;
+
+}
+
+.listing-button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Oswald",sans-serif;
+}
+
+.booking-button-2 {
+    border-radius: 10px;
+    color: red;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-family: "Oswald",sans-serif;
+}
+
+.icons-info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5F5DC;
+}
+
+.boxes {
+    width: 300px;
+    text-align: center;
+}
+
+.boxes>h2 {
+    color: #333333;
+    font-weight: 400;
+}
+
+.boxes>p {
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.why-us {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url('./assets/wallpaperflare.com_wallpaper\ \(2\).jpg');
+    background-size: cover;
+    background-position: top;
+    color:  #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 100;
+}

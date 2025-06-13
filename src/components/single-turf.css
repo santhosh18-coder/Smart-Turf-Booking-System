@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.turf-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height:150vh;
+  align-items: center;
+  background-color: #0D0D0D;
+}
+
+.turf-header {
+  height: 80px;
+  width: 100%;
+  background-color: 	#1A1A1A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.turf-disp {
+  width: 90%;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.turf-name {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.turf-name>button {
+  border-radius: 10px;
+  width: 200px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 1.4rem;
+  height:50px
+}
+
+.turf-name>h2 {
+  font-size: 1.5rem;
+}
+
+.turf-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
