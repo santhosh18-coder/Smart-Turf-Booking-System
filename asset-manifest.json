@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Smart-Turf-Booking-System/static/css/main.151c7bf3.css",
+    "main.js": "/Smart-Turf-Booking-System/static/js/main.b6a2308b.js",
+    "static/js/453.e8e19208.chunk.js": "/Smart-Turf-Booking-System/static/js/453.e8e19208.chunk.js",
+    "static/media/hand.jpg": "/Smart-Turf-Booking-System/static/media/hand.6cf83a1d64dbccaa1801.jpg",
+    "static/media/cr7.jpg": "/Smart-Turf-Booking-System/static/media/cr7.05685c6af8d286690cac.jpg",
+    "static/media/vk.jpg": "/Smart-Turf-Booking-System/static/media/vk.2bb837295afda109117a.jpg",
+    "static/media/wallpaperflare.com_wallpaper (2).jpg": "/Smart-Turf-Booking-System/static/media/wallpaperflare.com_wallpaper (2).9f2a0fdf5a4abcf74a74.jpg",
+    "index.html": "/Smart-Turf-Booking-System/index.html",
+    "main.151c7bf3.css.map": "/Smart-Turf-Booking-System/static/css/main.151c7bf3.css.map",
+    "main.b6a2308b.js.map": "/Smart-Turf-Booking-System/static/js/main.b6a2308b.js.map",
+    "453.e8e19208.chunk.js.map": "/Smart-Turf-Booking-System/static/js/453.e8e19208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.151c7bf3.css",
+    "static/js/main.b6a2308b.js"
+  ]
+}
